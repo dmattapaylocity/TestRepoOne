@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: TESTINGABCDE
+  description: test desc
+  labels:
+    access: internal
+  tags: []
+spec:
+  type: business domain
+  lifecycle: production
+  owner: testing
+  definition:
+    $text: https://github.com/Paylocity/Paylocity.DeveloperPortal.Specifications/blob/main/local/default/testingabcde/latest.json
