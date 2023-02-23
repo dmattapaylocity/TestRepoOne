@@ -1,0 +1,16 @@
+ApiVersion: backstage.io/v1alpha1
+Kind: API
+Metadata:
+  Name: TestApi
+  Description: TestApi Desc.
+  Labels:
+    Access: private
+  Tags:
+  - marketplace
+  Links: []
+Spec:
+  Type: single-use
+  Lifecycle: development
+  Owner: DeveloperPortalTeam
+  Definition:
+    Text: https://github.com/Paylocity/Paylocity.DeveloperPortal.Specifications/blob/main/local/default/TestAppCode/latest.json
